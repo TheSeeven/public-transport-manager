@@ -1,0 +1,156 @@
+﻿<Page
+    x:Class="ManagerMap.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ManagerMap"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    mc:Ignorable="d" 
+    RequestedTheme="Dark">
+
+    <Border x:ConnectionId='2' x:Name="pageGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,0" MinWidth="1280" MinHeight="705" >
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='3' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='4' x:Name="Fullscreen">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1300"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:ConnectionId='5' x:Name="_1280_720">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" MinWindowHeight="0"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+
+        <Grid Margin="0,0,0,0" MinWidth='1280' ColumnSpacing="0">
+            <Maps:MapControl x:ConnectionId='6'
+                x:Name="MapControl1"
+                Grid.Column="0"
+                Grid.Row="0"
+                ZoomInteractionMode="GestureAndControl"
+                TiltInteractionMode="GestureAndControl"   
+                MapServiceToken="kJpPGuO4YX8y39VTBJl6~5B-3o2J5EBcyOTJfaxW7eA~Ag1V4U4Lko744IeKZa55BZWdGfWevnkTroPgZsm5Dtp2h5jO0MJIENKA4gX53ECE" MaxWidth="40000" RenderTransformOrigin="0.514,0.493" Margin="0,0,680,0" MinWidth="800">
+
+                <ListView x:ConnectionId='52' x:Name="ListType" Height="194" Margin="0,0,0,0"  >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:ConnectionId='54' Grid.Column="0" Text="{Binding name}" 
+                                FontSize="25" Foreground="White" Margin="5" HorizontalTextAlignment="Center" HorizontalAlignment="Left"                     />
+                                <TextBlock Grid.Column="1" Text="{Binding id}" 
+                                FontSize="25" Foreground="White" Margin="5" HorizontalTextAlignment="Center" HorizontalAlignment="Right"/>
+                            </Grid>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </Maps:MapControl>
+            <Grid Grid.Row="0" MinWidth="660" Grid.ColumnSpan="1" Width="657" HorizontalAlignment="Right">
+
+                <TextBlock x:ConnectionId='7' HorizontalAlignment="Left" x:Name="TypeLabel" FontSize="23" Text="No Type selected" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Margin="407,477,0,0" Width="241" />
+                <TextBox x:ConnectionId='8' HorizontalAlignment="Left" x:Name="VehName" Height="35" Margin="155,12,0,0" PlaceholderText="Vehicle Name" Text="" VerticalAlignment="Top" Width="140"/>
+                <TextBox x:ConnectionId='9' HorizontalAlignment="Left" x:Name="VehID" Height="34" Margin="155,49,0,0" PlaceholderText="Vehicle ID" Text="" VerticalAlignment="Top" Width="140"/>
+                <Button x:ConnectionId='10' Content="Insert Vehicle" FontSize="17" Height="67" Margin="4,13,0,0" VerticalAlignment="Top" Width="138"                          />
+                <TextBlock HorizontalAlignment="Left" Height="47" FontSize="14" Margin="141,152,0,0" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"><Run Text=" Click on map to chose a "/><LineBreak/><Run Text="location for the station"/></TextBlock>
+                <TextBox x:ConnectionId='11' HorizontalAlignment="Left" x:Name="VehicleID" Height="35" Margin="471,14,0,0" PlaceholderText="Vehicle ID"  VerticalAlignment="Top" Width="176" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                    <TextBox.RenderTransform>
+                        <CompositeTransform SkewX="1.591" TranslateX="0.472"/>
+                    </TextBox.RenderTransform>
+                </TextBox>
+                <Button x:ConnectionId='12' Content="Delete Vehicle" FontSize="17" Height="67" Margin="327,13,0,0" VerticalAlignment="Top" Width="137"                            />
+                <Button x:ConnectionId='13' Content="Add Station" FontSize="17" Height="67" Margin="4,123,0,0" VerticalAlignment="Top" Width="138"                     />
+                <Button x:ConnectionId='14' Content="Activate selecting location on map" FontSize="15" Height="36" Margin="311,114,0,0" VerticalAlignment="Top" Width="292"                      />
+                <TextBox x:ConnectionId='15' HorizontalAlignment="Left" x:Name="Station_Name" Height="34" Margin="155,118,0,0" PlaceholderText="Station Name" VerticalAlignment="Top" Width="149"/>
+
+                <TextBlock x:ConnectionId='16' HorizontalAlignment="Left" x:Name="DeletVeh" Height="41" Margin="485,53,0,0" Text="Wrong insert, the id must be number" Foreground="OrangeRed" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Visibility="Collapsed"/>
+                <TextBlock x:ConnectionId='17' HorizontalAlignment="Left" x:Name="InsType" Height="24" Margin="304,353,0,0" Text="Wrong insert" Foreground="OrangeRed" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" Visibility="Collapsed"/>
+                <TextBlock x:ConnectionId='18' HorizontalAlignment="Left" x:Name="DelType" Height="24" Margin="432,448,0,0" Text="Wrong insert" Foreground="OrangeRed" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" Visibility="Collapsed"/>
+                <TextBlock x:ConnectionId='19' HorizontalAlignment="Left" x:Name="DeletStat" Height="25" Margin="-67,287,0,0" Text="Wrong insert, the id must be number" Foreground="OrangeRed" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" Visibility="Collapsed"/>
+                <TextBlock x:ConnectionId='20' HorizontalAlignment="Left" x:Name="DeletePathWrong" Height="40" Margin="12,464,0,0" Text="Wrong insert, the id must be number &#xA; or the station dose not exist" Foreground="OrangeRed" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" Visibility="Collapsed"/>
+                <TextBlock x:ConnectionId='21' HorizontalAlignment="Left" x:Name="insertStatVeh" Height="38" Margin="12,578,0,0" Text="Wrong insert, the id must be number &#xA; or the station,vehicle name dose not exist" Foreground="OrangeRed" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="285" Visibility="Collapsed"/>
+                <TextBlock x:ConnectionId='22' HorizontalAlignment="Left" x:Name="DeleteStatVeh" Height="44" Margin="6,698,0,0" Text="Wrong insert, the id must be number &#xA; or the station,vehicle name dose not exist" Foreground="OrangeRed" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="304" Visibility="Collapsed"/>
+                <TextBlock x:ConnectionId='23' HorizontalAlignment="Left" x:Name="TextID" FontSize="13" Height="39" Margin="4,80,0,0" Text="The name must be less then 5 characters, you have to select a type and the id must be a number" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="448" Visibility="Collapsed"/>
+                <TextBlock x:ConnectionId='24' HorizontalAlignment="Left" x:Name="StationValid" FontSize="13" Height="39" Margin="5,195,0,0" Text="No type was selected or Name was not declared" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Visibility="Collapsed"/>
+                <TextBlock x:ConnectionId='25' HorizontalAlignment="Left" Height="27" x:Name="Activation" Margin="344,150,0,0" Text="Selection on map is disabeld" Foreground="LightGreen" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" Visibility="Collapsed"/>
+                <Button x:ConnectionId='26' Content="Delete Station" FontSize="17" Height="65" Margin="5,222,0,0" VerticalAlignment="Top" Width="142"                            />
+                <TextBox x:ConnectionId='27' HorizontalAlignment="Left" x:Name="Station_Id" Height="34" Margin="161,240,0,0" PlaceholderText="Station ID" Text="" VerticalAlignment="Top" Width="132"/>
+                <ListView x:ConnectionId='28' x:Name="ListVeh" HorizontalAlignment="Left" Height="138" Margin="470,554,0,0" VerticalAlignment="Top" Width="140">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+
+                            <Grid Margin="0,0,5,15">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:ConnectionId='51' Grid.Column="0" Text="{Binding nume}" 
+                                FontSize="20" Foreground="White" Margin="5" HorizontalTextAlignment="Center" HorizontalAlignment="Left"                            />
+                                <TextBlock Grid.Column="1" Text="{Binding id}" 
+                                FontSize="20" Foreground="White" Margin="5" HorizontalTextAlignment="Center" HorizontalAlignment="Right"/>
+                            </Grid>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Button x:ConnectionId='29' Content="Insert Path" FontSize="17" Height="60" Margin="5,317,0,0" VerticalAlignment="Top" Width="142"                         />
+                <TextBox x:ConnectionId='30' HorizontalAlignment="Left" x:Name="Station_From" Height="34" Margin="161,317,0,0" PlaceholderText="Station id From" Text="" VerticalAlignment="Top" Width="132"/>
+                <TextBox x:ConnectionId='31' HorizontalAlignment="Left" x:Name="Station_To" Height="33" Margin="161,346,0,0" PlaceholderText="Station id To" Text="" VerticalAlignment="Top" Width="132"/>
+                <TextBlock x:ConnectionId='32' HorizontalAlignment="Left" Height="33" x:Name="PathBlock" Margin="4,378,0,0" Text="Path already exists or the id was incorrect" Foreground="OrangeRed" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" Visibility="Collapsed"/>
+                <Button x:ConnectionId='33' Content="Delete Path" FontSize="17" Height="61" Margin="4,405,0,0" VerticalAlignment="Top" Width="145"                          />
+                <TextBox x:ConnectionId='34' HorizontalAlignment="Left" x:Name="Station_FromD"  Height="32" Margin="163,406,0,0" PlaceholderText="Station id From" Text="" VerticalAlignment="Top" Width="132"/>
+                <TextBox x:ConnectionId='35' HorizontalAlignment="Left" x:Name="Station_ToD"  Height="35" Margin="163,436,0,0" PlaceholderText="Station id To" Text="" VerticalAlignment="Top" Width="132"/>
+                <TextBlock HorizontalAlignment="Left" FontSize="30" Height="40" Margin="453,513,0,0" Text="Vehicle List" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+                <Button x:ConnectionId='36' Content="Insert Station &#xA;to Vehicle" FontSize="17" Height="69" Margin="5,509,0,0" VerticalAlignment="Top" Width="144"                               />
+                <TextBox x:ConnectionId='37' HorizontalAlignment="Left" Height="35" Margin="165,510,0,0" x:Name="IdInsert" PlaceholderText="Station id" Text="" VerticalAlignment="Top" Width="131"/>
+                <TextBox x:ConnectionId='38' HorizontalAlignment="Left" Height="34" Margin="165,546,0,0" x:Name="NameInsert" PlaceholderText="Vehicle Name" Text="" VerticalAlignment="Top" Width="131"/>
+                <Button x:ConnectionId='39' Content="Delete Station &#xA;of Vehicle" FontSize="17" Height="69" Margin="5,623,0,0" VerticalAlignment="Top" Width="144"                               />
+                <TextBox x:ConnectionId='40' HorizontalAlignment="Left" Height="35" Margin="163,624,0,0" x:Name="IdDelete" PlaceholderText="Station id" Text="" VerticalAlignment="Top" Width="132"/>
+                <TextBox x:ConnectionId='41' HorizontalAlignment="Left" Height="34" Margin="163,662,0,0" x:Name="NameDelete" PlaceholderText="Vehicle Name" Text="" VerticalAlignment="Top" Width="132"/>
+                <TextBlock HorizontalAlignment="Left" FontSize="30" Height="40" Margin="312,513,0,0" Text="Paths" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" />
+                <Button x:ConnectionId='42' Content="Add Type" FontSize="17" Height="62" Margin="310,285,0,0" VerticalAlignment="Top" Width="127"                       />
+                <Button x:ConnectionId='43' x:Name="ButtonUnisigned" Content="Show Stations Whitout a Vehicle" FontSize="17" Height="63" Margin="311,200,0,0" VerticalAlignment="Top" Width="330"                                  />
+                <TextBox x:ConnectionId='44' HorizontalAlignment="Left" Height="36" Margin="456,287,0,0" x:Name="TypeNameInsert" PlaceholderText="Type Name" Text="" VerticalAlignment="Top" Width="146"/>
+
+                <Button x:ConnectionId='45' Content="Delete Type" FontSize="17" Height="62" Margin="310,394,0,0" VerticalAlignment="Top" Width="127"                          />
+                <TextBox x:ConnectionId='46' HorizontalAlignment="Left" Height="34" Margin="445,410,0,0" x:Name="TypeNameDelete" PlaceholderText="Type Name" Text="" VerticalAlignment="Top" Width="147"/>
+                <ListView x:ConnectionId='47' x:Name="ListPath" HorizontalAlignment="Left" Height="138" Margin="317,554,0,0" VerticalAlignment="Top" Width="147">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+
+                            <Grid Margin="0,0,5,15">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="{Binding from}" 
+                                FontSize="20" Foreground="White"  HorizontalTextAlignment="Center" HorizontalAlignment="Left"/>
+                                <TextBlock Grid.Column="1" Text=" -  "
+                                FontSize="20" Foreground="White"  HorizontalTextAlignment="Center" HorizontalAlignment="Left"/>
+                                <TextBlock Grid.Column="2" Text="{Binding to}"
+                                FontSize="20" Foreground="White"  HorizontalTextAlignment="Center" HorizontalAlignment="Left"/>
+                            </Grid>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <ToggleSwitch x:ConnectionId='48' Header="Has rails" x:Name="SwitchType"  Margin="488,322,83,0" VerticalAlignment="Top" HorizontalAlignment="Stretch"                              Height="55" />
+            </Grid>
+
+
+
+        </Grid>
+
+    </Border>
+</Page>
+

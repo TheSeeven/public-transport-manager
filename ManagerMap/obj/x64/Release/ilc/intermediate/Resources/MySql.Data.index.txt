@@ -1,0 +1,6 @@
+MySql.Data, Version=8.0.21.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d
+  MySql.Data.Resources.resources
+  MySql.Data.ResourcesX.resources
+  MySql.Data.keywords.txt
+  MySql.Data.Properties.ReservedWords.txt
+  MySql.Data.libzstd.dll

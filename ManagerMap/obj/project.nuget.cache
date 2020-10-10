@@ -1,0 +1,321 @@
+{
+  "version": 2,
+  "dgSpecHash": "pPocPtjnEtutWKv+uWMGWjXHWlUX9XRjfHUfvKbmPYSpRiOXdnKJzRFnkm5rI/YQu2YXsWtcQUXB/5wChW3xIw==",
+  "success": true,
+  "projectFilePath": "E:\\Xamarin\\ManagerMap\\ManagerMap\\ManagerMap.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Robi\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\k4os.compression.lz4.streams\\1.1.11\\k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\mysql.data\\8.0.21\\mysql.data.8.0.21.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.collections\\4.3.0\\runtime.any.system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.globalization\\4.3.0\\runtime.any.system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.io\\4.3.0\\runtime.any.system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.reflection\\4.3.0\\runtime.any.system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.reflection.primitives\\4.3.0\\runtime.any.system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.resources.resourcemanager\\4.3.0\\runtime.any.system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.runtime.handles\\4.3.0\\runtime.any.system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.runtime.interopservices\\4.3.0\\runtime.any.system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.text.encoding\\4.3.0\\runtime.any.system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.text.encoding.extensions\\4.3.0\\runtime.any.system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.any.system.threading.tasks\\4.3.0\\runtime.any.system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.collections\\4.3.0\\runtime.aot.system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.globalization\\4.3.0\\runtime.aot.system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.io\\4.3.0\\runtime.aot.system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.reflection\\4.3.0\\runtime.aot.system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.reflection.primitives\\4.3.0\\runtime.aot.system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.resources.resourcemanager\\4.3.0\\runtime.aot.system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.runtime\\4.3.0\\runtime.aot.system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.runtime.handles\\4.3.0\\runtime.aot.system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.runtime.interopservices\\4.3.0\\runtime.aot.system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.text.encoding\\4.3.0\\runtime.aot.system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.text.encoding.extensions\\4.3.0\\runtime.aot.system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.aot.system.threading.tasks\\4.3.0\\runtime.aot.system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win.system.diagnostics.debug\\4.3.0\\runtime.win.system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win.system.io.filesystem\\4.3.0\\runtime.win.system.io.filesystem.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win.system.runtime.extensions\\4.3.0\\runtime.win.system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.8-rel-28605-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.7-rel-28605-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.7-rel-28605-00.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\\2.2.10\\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-arm.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-arm64.microsoft.net.native.compiler\\2.2.8-rel-28605-00\\runtime.win10-arm64.microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-arm64.microsoft.net.native.sharedlibrary\\2.2.7-rel-28605-00\\runtime.win10-arm64.microsoft.net.native.sharedlibrary.2.2.7-rel-28605-00.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-x64.microsoft.net.native.compiler\\2.2.8-rel-28605-00\\runtime.win10-x64.microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-x64.microsoft.net.native.sharedlibrary\\2.2.7-rel-28605-00\\runtime.win10-x64.microsoft.net.native.sharedlibrary.2.2.7-rel-28605-00.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\\2.2.10\\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.compiler\\2.2.8-rel-28605-00\\runtime.win10-x86.microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.2.7-rel-28605-00\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.2.7-rel-28605-00.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.10\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\runtime.win7.system.private.uri\\4.3.0\\runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\ssh.net\\2016.1.0\\ssh.net.2016.1.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\sshnet.security.cryptography\\1.2.0\\sshnet.security.cryptography.1.2.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\system.diagnostics.contracts\\4.0.1\\system.diagnostics.contracts.4.0.1.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.globalization\\4.0.11\\system.globalization.4.0.11.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.private.uri\\4.3.0\\system.private.uri.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.reflection.typeextensions\\4.1.0\\system.reflection.typeextensions.4.1.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\system.resources.resourcemanager\\4.0.1\\system.resources.resourcemanager.4.0.1.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.runtime.extensions\\4.1.0\\system.runtime.extensions.4.1.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\system.runtime.handles\\4.0.1\\system.runtime.handles.4.0.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\system.runtime.interopservices\\4.1.0\\system.runtime.interopservices.4.1.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.runtime.windowsruntime\\4.3.0\\system.runtime.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.security.cryptography.primitives\\4.0.0\\system.security.cryptography.primitives.4.0.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.security.permissions\\4.6.0\\system.security.permissions.4.6.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\system.text.encoding.extensions\\4.0.11\\system.text.encoding.extensions.4.0.11.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.text.regularexpressions\\4.1.0\\system.text.regularexpressions.4.1.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.threading\\4.0.11\\system.threading.4.0.11.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.threading.overlapped\\4.3.0\\system.threading.overlapped.4.3.0.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
+    "C:\\Users\\Robi\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Collections from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Collections (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Collections (>= 4.0.11)",
+      "libraryId": "System.Collections",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Diagnostics.Debug from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Diagnostics.Debug (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.Diagnostics.Debug (>= 4.0.11)",
+      "libraryId": "System.Diagnostics.Debug",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.IO.FileSystem.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.IO.FileSystem.Primitives (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem.Primitives (>= 4.0.1)",
+      "libraryId": "System.IO.FileSystem.Primitives",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Resources.ResourceManager from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Resources.ResourceManager (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Resources.ResourceManager (>= 4.0.1)",
+      "libraryId": "System.Resources.ResourceManager",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.Extensions from 4.3.0 to 4.1.0. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.Extensions (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Runtime.Extensions (>= 4.1.0)",
+      "libraryId": "System.Runtime.Extensions",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.Handles from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.Handles (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> System.Runtime.Handles (>= 4.0.1)",
+      "libraryId": "System.Runtime.Handles",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.InteropServices from 4.3.0 to 4.1.0. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.InteropServices (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.Runtime.InteropServices (>= 4.1.0)",
+      "libraryId": "System.Runtime.InteropServices",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Text.Encoding.Extensions from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Text.Encoding.Extensions (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.Text.Encoding.Extensions (>= 4.0.11)",
+      "libraryId": "System.Text.Encoding.Extensions",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Threading from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Threading (>= 4.0.11)",
+      "libraryId": "System.Threading",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Globalization from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime 4.3.0 -> System.Globalization (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Globalization (>= 4.0.11)",
+      "libraryId": "System.Globalization",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Reflection.TypeExtensions from 4.3.0 to 4.1.0. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> BouncyCastle.NetCore 1.8.3 -> NETStandard.Library 1.6.0 -> System.Reflection.Extensions 4.0.1 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> BouncyCastle.NetCore 1.8.3 -> System.Reflection.TypeExtensions (>= 4.1.0)",
+      "libraryId": "System.Reflection.TypeExtensions",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Resources.ResourceManager from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Collections 4.0.11 -> runtime.aot.System.Collections 4.3.0 -> System.Resources.ResourceManager (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Resources.ResourceManager (>= 4.0.1)",
+      "libraryId": "System.Resources.ResourceManager",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.Extensions from 4.3.0 to 4.1.0. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Collections 4.0.11 -> runtime.aot.System.Collections 4.3.0 -> System.Runtime.Extensions (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> SSH.NET 2016.1.0 -> System.Xml.XPath.XmlDocument 4.0.1 -> System.Runtime.Extensions (>= 4.1.0)",
+      "libraryId": "System.Runtime.Extensions",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Resources.ResourceManager from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> BouncyCastle.NetCore 1.8.3 -> System.Reflection.TypeExtensions 4.1.0 -> System.Linq 4.1.0 -> System.Collections 4.0.11 -> runtime.aot.System.Collections 4.3.0 -> System.Resources.ResourceManager (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> BouncyCastle.NetCore 1.8.3 -> System.Reflection.TypeExtensions 4.1.0 -> System.Resources.ResourceManager (>= 4.0.1)",
+      "libraryId": "System.Resources.ResourceManager",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Runtime.Extensions from 4.3.0 to 4.1.0. Reference the package directly from the project to select a different version. \r\n ManagerMap -> MySql.Data 8.0.21 -> BouncyCastle.NetCore 1.8.3 -> System.Reflection.TypeExtensions 4.1.0 -> System.Linq 4.1.0 -> System.Collections 4.0.11 -> runtime.aot.System.Collections 4.3.0 -> System.Runtime.Extensions (>= 4.3.0) \r\n ManagerMap -> MySql.Data 8.0.21 -> BouncyCastle.NetCore 1.8.3 -> System.Reflection.TypeExtensions 4.1.0 -> System.Runtime.Extensions (>= 4.1.0)",
+      "libraryId": "System.Runtime.Extensions",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    }
+  ]
+}

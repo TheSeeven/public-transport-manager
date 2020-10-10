@@ -1,0 +1,6 @@
+MainPackage=E:\Xamarin\ManagerMap\ManagerMap\bin\x64\Debug\ManagerMap_1.2.0.0_x64_Debug.appx
+SymbolPackage=E:\Xamarin\ManagerMap\ManagerMap\obj\x64\Debug\Symbols\ManagerMap_1.2.0.0_x64_Debug.appxsym
+ResourcePack=E:\Xamarin\ManagerMap\ManagerMap\bin\x64\Debug\ManagerMap_1.2.0.0_scale-100.appx
+ResourcePack=E:\Xamarin\ManagerMap\ManagerMap\bin\x64\Debug\ManagerMap_1.2.0.0_scale-125.appx
+ResourcePack=E:\Xamarin\ManagerMap\ManagerMap\bin\x64\Debug\ManagerMap_1.2.0.0_scale-150.appx
+ResourcePack=E:\Xamarin\ManagerMap\ManagerMap\bin\x64\Debug\ManagerMap_1.2.0.0_scale-400.appx

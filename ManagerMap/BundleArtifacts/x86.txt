@@ -1,0 +1,2 @@
+MainPackage=E:\Xamarin\ManagerMap\ManagerMap\bin\x86\Debug\ManagerMap_1.2.0.0_x86_Debug.appx
+SymbolPackage=E:\Xamarin\ManagerMap\ManagerMap\obj\x86\Debug\Symbols\ManagerMap_1.2.0.0_x86_Debug.appxsym

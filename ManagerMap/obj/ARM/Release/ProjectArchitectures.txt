@@ -1,0 +1,1 @@
+E:\Xamarin\ManagerMap\ManagerMap\ManagerMap.csproj;arm
